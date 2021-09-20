@@ -1,7 +1,8 @@
 import React from "react";
+import { Greet } from "./Greet";
 
 function App() {
-  return <div className="App"></div>;
+  return <Greet name="ruby" />;
 }
 
 export default App;
